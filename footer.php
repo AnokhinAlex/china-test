@@ -1,35 +1,3 @@
-<!--<div class="contact-form">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="title">Contact Form</h2>
-                        <form>
-                            <div class="left-block">
-                                <label>Your name: *</label>
-                                <input type="text">
-                                <label>E-mail: *</label>
-                                <input type="email">
-                                <label>Company:</label>
-                                <input type="text">
-                                <label>Phone:</label>
-                                <input type="tel">
-                                <p class="mobile-hide">* - Required fields</p>
-                            </div>
-                            <div class="right-block">
-                                <label>Your message: *</label>
-                                <textarea></textarea>
-                                <p class="mobile-visible">* - Required fields</p>
-                            </div>
-                            <input type="submit" class="button" value="send">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
-<!--END CONTENT-->
-
-
     <footer>
 
        <div class="contact">

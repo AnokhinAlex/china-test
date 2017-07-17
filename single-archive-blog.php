@@ -12,13 +12,13 @@
                 </div>
             </div>
         </div>
-        <?php if ( have_posts() ) while ( have_posts() ) : the_post(); // Начало цикла ?> 
+        <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?> 
         <div class="blog-content">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">              
                         <p class="date"><? the_date();?></p>
-                        <h1 class="title"><?php the_title(); // Заголовок ?></h1>
+                        <h1 class="title"><?php the_title(); ?></h1>
                         <p><? the_content(); ?></p>
                     </div>
                 </div>

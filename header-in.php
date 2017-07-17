@@ -5,13 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
     <title>Home Page</title>
-  <!--  <link rel="stylesheet" href="css/bootstrap-grid-3.3.1.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/icon.css">
-    <link rel="stylesheet" href="css/main.css">  -->
     <?php wp_head(); ?>
 </head>
 
@@ -41,25 +34,6 @@
 
                           ));
                         ?>  
-                      
-                        <!--<ul> 
-                        <li class="active">
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="catalog.html">Catalog</a>
-                        </li>
-                        <li>
-                            <a href="blog.html">Blog</a>
-                        </li>
-                        <li>
-                            <a href="about-us.html">About us</a>
-                        </li>
-                        <li>
-                            <a href="faq.html">FAQ</a>
-                        </li>
-                        </ul>-->
-                    
 
                     <a href="#" class="button request-sample">Request Sample</a>
                 </div>

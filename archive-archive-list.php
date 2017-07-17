@@ -36,10 +36,7 @@ $the_query->the_post(); ?>
                             </div>
 <?php } 
 }
-?> 
-                       
-                       
-                            
+?>                                                                          
                             
                         </div>
                     </div>
@@ -53,32 +50,3 @@ $the_query->the_post(); ?>
 <?php get_footer('in'); ?>
 <!--END FOOTER-->
 </div>
-
-<!--START MODAL-->
-
-<div class="modal fade enquiry" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-  <div class="modal-dialog ">
-    <div class="modal-content">
-        <i class="icon-close-button" data-dismiss="modal" aria-hidden="true"></i>
-        <form>
-            <label>Your name: *</label>
-            <input type="text">
-            <label>Your E-mail: *</label>
-            <input type="email">
-            <label>Message: *</label>
-            <textarea></textarea>
-            <p>* - Required fields</p>
-            <input type="submit" value="SEND" class="button">
-        </form>
-    </div>
-  </div>
-</div>
-<!--END MODAL-->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-<script src="js/jquery-2.1.4.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/common.js"></script>
-
-</body>
-
-</html>

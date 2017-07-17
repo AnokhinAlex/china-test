@@ -1,40 +1,30 @@
 <?php get_header(); ?>
 
 
-<?php if ( have_posts() ) while ( have_posts() ) : the_post(); // Начало цикла ?> 
+<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?> 
 <section>
         <div class="catalog card">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                        <? chinatheme_breadcrumbs();?>
-                       <h3 class="title"><?php the_title(); // Заголовок ?></h3>
+                       <h3 class="title"><?php the_title(); ?></h3>
                         <div class="cards">
                             <div class="left-block">
-                            <?php 
-
-									$images = get_field('gallery');
-
+                            <?php $images = get_field('gallery');									
 									if( $images ): ?>
-									   <div class="slider-card slider-product">
 
+									   <div class="slider-card slider-product">
 									        <?php foreach( $images as $image ): ?>
 									        	<div class="item-slider">
-                                   
-                                		
-                              
-                                        <a href="<?php echo $image['url']; ?>" style="background-image:url(<?php echo $image['sizes']['thumbnail']; ?>);" data-zoom-image="<?php echo $image['sizes']['thumbnail']; ?>">
+                                                                  	                             
+                                       <a href="<?php echo $image['url']; ?>" style="background-image:url(<?php echo $image['sizes']['thumbnail']; ?>);" data-zoom-image="<?php echo $image['url']; ?>">
                                         </a>
                                     </div>
-									           
+									        
 									        <?php endforeach; ?>
 									    </div>
-									<?php endif; ?>
-                              
-                                   
-                                		
-                              
-                                  
+									<?php endif; ?>                                                                                                 		                                                            
 
                             </div>
                             <div class="right-block">
@@ -107,21 +97,12 @@
                                         </div>
                                     <?php endif; ?>
 
-
-
-
-
-
-
-
                         </div>  
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
 
 <?php endwhile; ?> 
 

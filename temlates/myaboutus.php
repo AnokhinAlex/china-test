@@ -107,14 +107,3 @@ Template Post Type: page
 
 <!--START FOOTER-->
 <? get_footer();?>
-<!--END FOOTER-->
-</div>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-<script src="js/jquery-2.1.4.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/common.js"></script>
-
-</body>
-
-</html>
