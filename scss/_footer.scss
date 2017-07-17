@@ -1,0 +1,108 @@
+//START FOOTER
+.contact
+{
+    padding: 95px 0;
+    h3.title
+    {
+        font-family: 'TitilliumWeb';
+        color:  #424242;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+    }
+    a
+    {
+        color:  #424242;
+        font-size: 36px;
+        font-weight: 400;
+        text-align: center;
+        display: table;
+        margin: 20px auto;
+    }
+    
+    ul.soc
+    {
+        text-align: center;
+        li
+        {
+            display: inline-block;
+            margin: 0 20px;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            &:hover
+            {
+                opacity: .6;
+            }
+            i
+            {
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                position: relative;
+                display: block;
+                &:before
+                {
+                    font-size: 28px;
+                    color: #fff;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    display: table;
+                    margin: auto;
+                    -webkit-transform: translate(-50%, -50%);
+                    -moz-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    -o-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                }
+            }
+            a
+            {
+                margin: 0;
+            }
+            &.skype
+            {
+                i
+                {
+                    background: #00ADE6;
+                }
+            }
+            &.viber
+            {
+                i
+                {
+                    background: #8E37B3;
+                }
+            }
+            &.whatsApp
+            {
+                i
+                {
+                    background: #00D625;
+                }
+            }
+        }
+    }
+}
+.footer
+{
+    background: #424242;
+    line-height: 160px;
+    border-top: 1px solid #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    p
+    {
+        color:  #fff;
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+//END FOOTER

@@ -1,0 +1,132 @@
+@media only screen and (max-width : 1199px) 
+{
+    .shipping-and-return 
+    {
+        .table 
+        {
+            .tr
+            {
+                &:first-of-type 
+                {
+                    P
+                    {
+                        font-size: 36px;
+                    }
+                }
+                .td 
+                {
+                    p
+                    {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) 
+{
+    body
+    {
+        padding: 80px 0 160px;
+    }
+    header
+    {
+        line-height: 80px;
+        height: 80px;
+
+        .button 
+        {
+            max-width: 155px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 16px;
+        }
+        ul
+        {
+            width: calc(100% - 295px);
+            padding-right: 0px;
+        }
+        .logo 
+        {
+            a
+            {
+                height: 48px;
+            }
+            img 
+            {
+                max-width: 120px;
+            }
+        }
+    }
+    .banner 
+    {
+        .banner-content 
+        {
+            h1.title
+            {
+                max-width: 540px;
+                font-size: 45px;
+            }
+            p 
+            {
+                font-size: 16px;
+                line-height: 1.2;
+            }
+            form
+            {
+                margin-top: 30px;
+            }
+        }
+    }
+    .order-process 
+    {
+        .descriptions
+        {
+            width: 100%;
+            
+            .description
+            {
+                &:first-of-type
+                {
+                    padding-right: 0;
+                }
+                &:last-of-type
+                {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+    .slider 
+    {
+        .item 
+        {
+            p
+            {
+                max-width: 535px;
+            }
+        }
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) 
+{
+
+}
+
+@media only screen and (max-width : 479px) 
+{
+	
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 379px) 
+{
+	
+}   

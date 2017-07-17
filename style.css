@@ -1,0 +1,17 @@
+/*   
+Theme Name: chinatheme
+Theme URI: china
+Description: тема
+Author: я
+Version: 1.0.0
+*/
+body.logged-in{
+	margin-top: 30px;
+}
+
+.blog-items .left-block img {
+     width: 100%;
+    margin-bottom: -5px;
+    max-height: 100%;
+    display: -webkit-box;
+}
